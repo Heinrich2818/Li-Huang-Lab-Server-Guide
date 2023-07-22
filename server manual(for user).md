@@ -112,7 +112,7 @@ c.NotebookApp.allow_root = False
 Jupyter Notebook
 ```
 - 在运行后提示的信息中找到token，复制，供本地登录使用
-![Jupyter Notebook Token](./server-jn-edit.png "Jupyter Notebook token")
+![Jupyter Notebook Token](https://github.com/Heinrich2818/Li-Huang-Lab-Server-Guide/blob/main/manual_pic/server-jn-edit.png "Jupyter Notebook token")
 #### 3. 本地设置
 本地访问Jupyter Notebook采用SSH隧道穿透方法（也可以采用FRP穿透技术，本文不介绍），首先在本地安装ssh服务
 
@@ -129,4 +129,4 @@ https://localhost:8888/
 - 在登陆界面粘贴复制的token
   
 - 开始使用Jupyter Notebook
-![Jupyter Notebook](./jn.png "Jupyter Notebook运行截图")
+![Jupyter Notebook](https://github.com/Heinrich2818/Li-Huang-Lab-Server-Guide/blob/main/manual_pic/jn.png "Jupyter Notebook运行截图")
