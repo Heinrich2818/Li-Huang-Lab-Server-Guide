@@ -133,7 +133,7 @@ https://localhost:8888/
 
 ### ii. CUDA
 
-用户使用的容器中并未安装CUDA，需要使用CUDA直接从宿主机挂载
+用户使用的容器中并未安装CUDA，需要使用CUDA直接从宿主机挂载服务
 
 #### 1.容器挂载CUDA
 向服务器管理员申请CUDA挂载，服务器管理员将会把CUDA服务挂载至用户容器
@@ -153,7 +153,7 @@ ln -s /usr/local/cuda-12.2 /usr/local/cuda
 #### 3. 切换使用的CUDA版本
 删除原有软链接
 ```
-unlink link_name
+unlink /usr/local/cuda
 ```
 重新建立指定版本cuda的软链接（如11.2）
 ```
