@@ -143,7 +143,7 @@ https://localhost:8888/
 ```
 sudo su
 ```
-目前支持CUDA版本包含：<font color=red> 12.2，11.2</font> 
+目前支持CUDA版本包含：<font color=red> 12.2，12.1，11.2</font> 
 
 有使用指定版本CUDA需求时，请向管理员申请添加。用户使用如下命令添加软链接，即可使用对应版本的CUDA
 ```
